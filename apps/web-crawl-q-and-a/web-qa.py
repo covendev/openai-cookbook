@@ -20,8 +20,8 @@ from openai.embeddings_utils import distances_from_embeddings, cosine_similarity
 HTTP_URL_PATTERN = r'^http[s]{0,1}://.+$'
 
 # Define root domain to crawl
-domain = "openai.com"
-full_url = "https://openai.com/"
+domain = "sheficrypto.notion.site"
+full_url = "https://sheficrypto.notion.site/SheFi-Curriculum-2c29e52ffbd54ebba167b5442301eb33"
 
 # Create a class to parse the HTML and get the hyperlinks
 class HyperlinkParser(HTMLParser):
